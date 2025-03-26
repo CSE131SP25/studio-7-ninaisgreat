@@ -15,6 +15,7 @@ public class Rectangle {
 	}
 	public void draw()
 	{
+		StdDraw.setPenColor(164, 222, 255);
 		StdDraw.rectangle(0.5, 0.5, length/2, width/2);
 	}
 public double area()
